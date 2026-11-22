@@ -420,7 +420,7 @@ Ayrıntılar için [LICENSE](LICENSE) dosyasına bakın.
 
 Geliştiren: **Kemal Kalender**
 
-[GitHub](https://github.com/efem360) · [Google CP](https://github.com/efem360/Tampermonkey-Scripts/tree/main/Gmail-DateTime-Formatter)
+[GitHub](https://github.com/efem360) · [Gmail DateTime Formatter](https://github.com/efem360/Tampermonkey-Scripts/tree/main/Gmail-DateTime-Formatter)
 
 <br>
 
