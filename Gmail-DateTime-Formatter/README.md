@@ -14,13 +14,13 @@ Whether Gmail is displayed in Turkish, English, German, French, or another suppo
 <br>
 
 [![Userscript](https://img.shields.io/badge/Userscript-Tampermonkey-00485B?style=for-the-badge&logo=tampermonkey&logoColor=white)](https://www.tampermonkey.net/)
-[![Version](https://img.shields.io/badge/Version-2.4.0-2563EB?style=for-the-badge)](https://github.com/efem360/Gmail-DateTime-Formatter/releases)
-[![License](https://img.shields.io/badge/License-GPL--3.0-blue?style=for-the-badge)](https://github.com/efem360/Google-Cp/blob/main/LICENSE)
+[![Version](https://img.shields.io/badge/Version-2.4.0-2563EB?style=for-the-badge)](https://github.com/efem360/Tampermonkey-Scripts/tree/main/Gmail-DateTime-Formatter)
+[![License](https://img.shields.io/badge/License-GPL--3.0-blue?style=for-the-badge)](https://github.com/efem360/Tampermonkey-Scripts/blob/main/Gmail-DateTime-Formatter/LICENSE)
 [![Platform](https://img.shields.io/badge/Platform-Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](https://mail.google.com/)
 
 <br>
 
-[⚡ Install with One Click](https://raw.githubusercontent.com/efem360/Gmail-DateTime-Formatter/main/efem360-Gmail-DateTime-Formatter.user.js) · [GitHub Repository](https://github.com/efem360/Gmail-DateTime-Formatter) · [Release History](https://github.com/efem360/Gmail-DateTime-Formatter/releases)
+[⚡ Install with One Click](https://raw.githubusercontent.com/efem360/Tampermonkey-Scripts/main/Gmail-DateTime-Formatter/Gmail-DateTime-Formatter.js) · [GitHub Repository](https://github.com/efem360/Tampermonkey-Scripts/tree/main/Gmail-DateTime-Formatter) · [Release History](https://github.com/efem360/Tampermonkey-Scripts/tree/main/Gmail-DateTime-Formatter)
 
 <br>
 
@@ -117,7 +117,7 @@ https://www.tampermonkey.net/
 
 Open the following installation link:
 
-**[Install efem360 Gmail DateTime Formatter](https://raw.githubusercontent.com/efem360/Gmail-DateTime-Formatter/main/efem360-Gmail-DateTime-Formatter.user.js)**
+**[Install efem360 Gmail DateTime Formatter](https://raw.githubusercontent.com/efem360/Tampermonkey-Scripts/main/Gmail-DateTime-Formatter/Gmail-DateTime-Formatter.js)**
 
 Tampermonkey will open the userscript installation screen.
 
@@ -301,7 +301,7 @@ The project uses a single userscript file for installation and updates.
 **Update URL:**
 
 ```text
-https://raw.githubusercontent.com/efem360/Gmail-DateTime-Formatter/main/efem360-Gmail-DateTime-Formatter.user.js
+https://raw.githubusercontent.com/efem360/Tampermonkey-Scripts/main/Gmail-DateTime-Formatter/Gmail-DateTime-Formatter.js
 ```
 
 When a new version is released, the existing userscript file is updated.
@@ -422,7 +422,7 @@ See the [LICENSE](LICENSE) file for details.
 
 Developed by **Kemal Kalender**
 
-[GitHub](https://github.com/efem360) · [Google CP](https://github.com/efem360/Google-Cp)
+[GitHub](https://github.com/efem360) · [Google CP](https://github.com/efem360/Tampermonkey-Scripts/tree/main/efem360-Google-CP)
 
 <br>
 
