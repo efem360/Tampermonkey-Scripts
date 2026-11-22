@@ -1,4 +1,3 @@
-
 // ==UserScript==
 // @name         efem360 Gmail DateTime Formatter
 // @namespace    https://github.com/efem360
