@@ -17,69 +17,257 @@
 // @run-at       document-idle
 // ==/UserScript==
 
-
 (function () {
     'use strict';
 
-    const MONTHS = {
-        // Türkçe
-        'oca': '01', 'şub': '02', 'mar': '03',
-        'nis': '04', 'may': '05', 'haz': '06',
-        'tem': '07', 'ağu': '08', 'eyl': '09',
-        'eki': '10', 'kas': '11', 'ara': '12',
+    const LOCALES = [
+        'tr', 'en', 'en-US', 'en-GB', 'de', 'fr', 'es', 'it',
+        'pt', 'pt-BR', 'nl', 'ru', 'uk', 'pl', 'cs', 'sk',
+        'sl', 'hr', 'sr', 'bg', 'ro', 'hu', 'el', 'sv',
+        'no', 'da', 'fi', 'is', 'et', 'lv', 'lt', 'ga',
+        'mt', 'sq', 'mk', 'bs', 'ar', 'fa', 'he', 'ur',
+        'hi', 'bn', 'ta', 'te', 'ml', 'mr', 'gu', 'pa',
+        'ne', 'si', 'th', 'lo', 'km', 'my', 'vi', 'id',
+        'ms', 'fil', 'ja', 'ko', 'zh', 'zh-CN', 'zh-TW',
+        'zh-HK', 'yue', 'sw', 'am', 'af', 'zu', 'xh',
+        'yo', 'ig', 'ha', 'ps', 'ku', 'az', 'ka', 'hy',
+        'kk', 'uz', 'ky', 'tg', 'mn', 'bo', 'jv', 'su',
+        'ca', 'eu', 'gl', 'cy', 'br', 'lb', 'fo', 'be',
+        'bs', 'es-419', 'fr-CA', 'de-CH', 'en-AU',
+        'en-CA', 'en-IN', 'es-MX', 'es-ES', 'ar-EG',
+        'ar-SA', 'ar-MA', 'fa-IR', 'hi-IN', 'bn-BD',
+        'pt-PT', 'sr-Latn', 'sr-Cyrl'
+    ];
 
-        // İngilizce
-        'jan': '01', 'feb': '02', 'apr': '04',
-        'jun': '06', 'jul': '07', 'aug': '08',
-        'sep': '09', 'oct': '10', 'nov': '11',
-        'dec': '12',
+    const MONTHS = new Map();
 
-        // Almanca
-        'mär': '03', 'mai': '05', 'okt': '10',
-        'dez': '12',
+    function normalize(value) {
+        return value
+            .normalize('NFKC')
+            .toLocaleLowerCase()
+            .normalize('NFD')
+            .replace(/[\u0300-\u036f]/g, '')
+            .replace(/[.,،؛]/g, '')
+            .trim();
+    }
 
-        // Fransızca
-        'janv': '01', 'févr': '02', 'avr': '04',
-        'juin': '06', 'juil': '07', 'août': '08',
-        'sept': '09', 'déc': '12',
+    // Farklı alfabelerdeki rakamları standart rakamlara dönüştür.
+    function normalizeDigits(value) {
+        const ranges = [
+            [0x0660, 0x0669],
+            [0x06F0, 0x06F9],
+            [0x0966, 0x096F],
+            [0x09E6, 0x09EF],
+            [0x0A66, 0x0A6F],
+            [0x0AE6, 0x0AEF],
+            [0x0B66, 0x0B6F],
+            [0x0BE6, 0x0BEF],
+            [0x0C66, 0x0C6F],
+            [0x0CE6, 0x0CEF],
+            [0x0D66, 0x0D6F],
+            [0x0E50, 0x0E59],
+            [0x0ED0, 0x0ED9],
+            [0x1040, 0x1049],
+            [0x17E0, 0x17E9],
+            [0x1810, 0x1819],
+            [0xFF10, 0xFF19]
+        ];
 
-        // İspanyolca
-        'ene': '01', 'abr': '04', 'ago': '08',
-        'dic': '12',
+        return value.replace(/\p{Nd}/gu, char => {
+            const code = char.codePointAt(0);
 
-        // İtalyanca
-        'gen': '01', 'mag': '05', 'giu': '06',
-        'lug': '07', 'set': '09', 'ott': '10',
+            for (const [start, end] of ranges) {
+                if (code >= start && code <= end) {
+                    return String(code - start);
+                }
+            }
 
-        // Portekizce
-        'jan.': '01', 'fev.': '02', 'abr.': '04',
-        'mai.': '05', 'ago.': '08', 'dez.': '12'
-    };
+            return char;
+        });
+    }
+
+    // Tüm dillerden ay isimlerini otomatik oluştur.
+    function buildMonthDatabase() {
+        for (const locale of LOCALES) {
+            try {
+                for (let month = 0; month < 12; month++) {
+                    const date = new Date(Date.UTC(2020, month, 17));
+
+                    for (const options of [
+                        { month: 'long' },
+                        { month: 'short' },
+                        { month: 'long', day: 'numeric' },
+                        { month: 'short', day: 'numeric' }
+                    ]) {
+                        const formatter = new Intl.DateTimeFormat(
+                            locale,
+                            { ...options, timeZone: 'UTC' }
+                        );
+
+                        const parts = formatter.formatToParts(date);
+                        const monthPart = parts.find(
+                            part => part.type === 'month'
+                        );
+
+                        if (monthPart) {
+                            MONTHS.set(
+                                normalize(monthPart.value),
+                                String(month + 1).padStart(2, '0')
+                            );
+                        }
+                    }
+                }
+            } catch (_) {
+                // Desteklenmeyen dil atlanır.
+            }
+        }
+    }
+
+    buildMonthDatabase();
+
+    const PM_MARKERS = [
+        'pm', 'p.m.', 'p.m', 'pm.',
+        '下午', '午後', '오후', 'م', 'مساءً'
+    ];
+
+    const AM_MARKERS = [
+        'am', 'a.m.', 'a.m', 'am.',
+        '上午', '午前', '오전', 'ص', 'صباحاً'
+    ];
 
     function formatDate(fullDate) {
         if (!fullDate) return null;
 
-        const normalized = fullDate
-            .trim()
-            .replace(/,/g, '')
-            .replace(/\./g, '')
-            .replace(/\s+/g, ' ');
+        const original = fullDate.trim();
+        const value = normalizeDigits(original);
 
-        const parts = normalized.match(
-            /^(\d{1,2})\s+([^\s]+)\s+(\d{4})\s+\S+\s+(\d{1,2}:\d{2})$/i
+        // Saat bilgisini bul.
+        const timeMatch = value.match(
+            /(\d{1,2})[:.](\d{2})(?::\d{2})?\s*(a\.?m\.?|p\.?m\.?|上午|下午|午前|午後|오전|오후|م|ص|مساءً|صباحاً)?/i
         );
 
-        if (!parts) return null;
+        if (!timeMatch) return null;
 
-        const day = parts[1].padStart(2, '0');
-        const monthName = parts[2].toLocaleLowerCase();
-        const month = MONTHS[monthName];
-        const year = parts[3].slice(-2);
-        const time = parts[4];
+        let hour = Number(timeMatch[1]);
+        const minute = Number(timeMatch[2]);
+        const marker = timeMatch[3] || '';
 
-        if (!month) return null;
+        if (hour > 23 || minute > 59) return null;
 
-        return `${day}.${month}.${year} ${time}`;
+        const normalizedMarker = normalize(marker);
+
+        if (PM_MARKERS.some(m => normalize(m) === normalizedMarker)) {
+            if (hour < 1 || hour > 12) return null;
+            if (hour !== 12) hour += 12;
+        } else if (
+            AM_MARKERS.some(m => normalize(m) === normalizedMarker)
+        ) {
+            if (hour < 1 || hour > 12) return null;
+            if (hour === 12) hour = 0;
+        }
+
+        const time = String(hour).padStart(2, '0') +
+            ':' + String(minute).padStart(2, '0');
+
+        // Yıl bilgisini bul.
+        const yearMatch = value.match(/(?:^|\D)(\d{4})(?=\D|$)/);
+
+        if (!yearMatch) return null;
+
+        const year = Number(yearMatch[1]);
+
+        if (year < 1000 || year > 9999) return null;
+
+        // Tarih içerisindeki ay ismini bul.
+        let month = null;
+        let monthIndex = -1;
+
+        const tokens = [...value.matchAll(/[\p{L}\p{M}]+\.?/gu)];
+
+        for (const token of tokens) {
+            const key = normalize(token[0]);
+
+            if (MONTHS.has(key)) {
+                month = MONTHS.get(key);
+                monthIndex = token.index;
+                break;
+            }
+        }
+
+        // Ay adı bulunamazsa yıl-ay-gün veya gün-ay-yıl
+        // biçimindeki sayısal tarihleri kontrol et.
+        let day;
+
+        if (month) {
+            const numbers = [...value.matchAll(/\d+/g)];
+
+            const candidates = numbers
+                .filter(n => {
+                    const nValue = Number(n[0]);
+
+                    if (nValue < 1 || nValue > 31) return false;
+                    if (n[0].length === 4) return false;
+
+                    // Saat içerisindeki sayıları çıkar.
+                    const index = n.index;
+                    const timeStart = timeMatch.index;
+                    const timeEnd = timeStart + timeMatch[0].length;
+
+                    return index < timeStart || index >= timeEnd;
+                })
+                .map(n => ({
+                    value: Number(n[0]),
+                    distance: Math.abs(n.index - monthIndex)
+                }))
+                .sort((a, b) => a.distance - b.distance);
+
+            if (!candidates.length) return null;
+
+            day = candidates[0].value;
+        } else {
+            const numericDate = value.match(
+                /(?:^|\D)(\d{4})[-/.年](\d{1,2})[-/.月](\d{1,2})日?(?=\D|$)/
+            );
+
+            if (numericDate) {
+                const a = Number(numericDate[2]);
+                const b = Number(numericDate[3]);
+
+                if (a < 1 || a > 12 || b < 1 || b > 31) return null;
+
+                month = String(a).padStart(2, '0');
+                day = b;
+            } else {
+                const reverseDate = value.match(
+                    /(?:^|\D)(\d{1,2})[-/.](\d{1,2})[-/.](\d{4})(?=\D|$)/
+                );
+
+                if (!reverseDate) return null;
+
+                const a = Number(reverseDate[1]);
+                const b = Number(reverseDate[2]);
+
+                // Belirsiz sayısal tarihleri tahmin ederek değiştirme.
+                if (a > 12 && b <= 12) {
+                    day = a;
+                    month = String(b).padStart(2, '0');
+                } else if (b > 12 && a <= 12) {
+                    day = b;
+                    month = String(a).padStart(2, '0');
+                } else {
+                    return null;
+                }
+            }
+        }
+
+        if (!day || day < 1 || day > 31) return null;
+
+        return (
+            String(day).padStart(2, '0') + '.' +
+            month + '.' +
+            String(year).slice(-2) + ' ' +
+            time
+        );
     }
 
     function fixDate(outerSpan) {
@@ -116,9 +304,11 @@
         ).forEach(fixDate);
     }
 
+    // İlk tarama.
     scanElement(document.body);
 
-    const observer = new MutationObserver(function (mutations) {
+    // Gmail değişikliklerini takip et.
+    const observer = new MutationObserver(mutations => {
         for (const mutation of mutations) {
             if (mutation.type === 'childList') {
                 mutation.addedNodes.forEach(scanElement);
