@@ -1149,11 +1149,11 @@ Projeyi geliştirmek, hata bildirmek veya yeni özellik önermek isteyen herkes 
 
 # 📄 Lisans
 
-Bu proje **GPL 3.0 Lisansı** altında yayımlanmaktadır.
+Bu proje **GNU Genel Kamu Lisansı v3.0 (GPL-3.0)** kapsamında lisanslanmıştır.
 
-MIT Lisansı, lisans koşullarına uyulması şartıyla yazılımın kullanılmasına, kopyalanmasına, değiştirilmesine, birleştirilmesine, yayımlanmasına, dağıtılmasına ve alt lisanslanmasına izin verir.
+GNU GPL-3.0 lisansı; kaynak kodunun açık tutulması, yapılan değişikliklerin belirtilmesi ve türetilmiş çalışmaların da aynı lisans altında dağıtılması koşuluyla yazılımın özgürce kullanılmasına, incelenmesine, değiştirilmesine ve dağıtılmasına izin verir.
 
-Ayrıntılar için proje deposundaki `LICENSE` dosyasını inceleyin.
+Detaylı bilgi için proje deposundaki `LICENSE` dosyasına göz atabilirsiniz.
 
 ---
 
