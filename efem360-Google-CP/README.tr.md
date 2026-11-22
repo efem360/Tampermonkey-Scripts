@@ -1150,7 +1150,7 @@ Projeyi geliştirmek, hata bildirmek veya yeni özellik önermek isteyen herkes 
 
 # 📄 Lisans
 
-Bu proje **MIT Lisansı** altında yayımlanmaktadır.
+Bu proje **GPL 3.0 Lisansı** altında yayımlanmaktadır.
 
 MIT Lisansı, lisans koşullarına uyulması şartıyla yazılımın kullanılmasına, kopyalanmasına, değiştirilmesine, birleştirilmesine, yayımlanmasına, dağıtılmasına ve alt lisanslanmasına izin verir.
 
