@@ -1,4 +1,3 @@
-
 <div align="center">
 
 # ✦ efem360 Gmail DateTime Formatter
@@ -404,7 +403,7 @@ Dil uyumluluğunu, performansı ve güvenilirliği geliştiren katkılar memnuni
 
 ## 📜 Lisans
 
-Bu proje **MIT Lisansı** kapsamında dağıtılmaktadır.
+Bu proje **GPL 3.0 Lisansı** kapsamında dağıtılmaktadır.
 
 Lisans koşullarına uygun olarak yazılımı kullanabilir, değiştirebilir ve dağıtabilirsiniz.
 
