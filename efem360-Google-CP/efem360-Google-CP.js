@@ -4,8 +4,8 @@
 // @version      4.1.9
 // @description  Google arama ve OSINT deneyiminizi tek panelden yönetin. Gelişmiş operatörler, yerel dil paketleri, çeviri ve döviz araçlarıyla aramalarınızı özelleştirin.
 // @author       Kemal Kalender
-// @homepageURL  https://github.com/efem360/Google-Cp
-// @supportURL   https://github.com/efem360/Google-Cp/issues
+// @homepageURL  https://github.com/efem360/Tampermonkey-Scripts/tree/main/efem360-Google-CP
+// @supportURL   https://github.com/efem360/Tampermonkey-Scripts/tree/main/efem360-Google-CP/issues
 // @match        *://www.google.com/*
 // @match        *://www.google.com.tr/*
 // @match        *://www.google.*/*
@@ -23,8 +23,8 @@
 // @connect      www.piyasadoviz.com
 // @connect      piyasadoviz.com
 // @connect      translate.googleapis.com
-// @updateURL    https://raw.githubusercontent.com/efem360/Google-Cp/refs/heads/main/efem360-Google-CP.js
-// @downloadURL  https://github.com/efem360/Tampermonkey-Scripts/raw/refs/heads/main/efem360-Google-CP.js
+// @updateURL    https://raw.githubusercontent.com/efem360/Tampermonkey-Scripts/main/efem360-Google-CP/efem360-Google-CP.js
+// @downloadURL  https://raw.githubusercontent.com/efem360/Tampermonkey-Scripts/main/efem360-Google-CP/efem360-Google-CP.js
 // @run-at       document-idle
 // ==/UserScript==
 
