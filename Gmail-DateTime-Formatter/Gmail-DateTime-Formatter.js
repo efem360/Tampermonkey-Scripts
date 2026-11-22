@@ -12,8 +12,8 @@
 // @icon         https://mail.google.com/favicon.ico
 // @license      GPL 3.0
 // @grant        none
-// @updateURL    https://raw.githubusercontent.com/efem360/Tampermonkey-Scripts/main/Gmail-DateTime-Formatter/Gmail-DateTime-Formatter.user.js
-// @downloadURL  https://raw.githubusercontent.com/efem360/Tampermonkey-Scripts/main/Gmail-DateTime-Formatter/Gmail-DateTime-Formatter.user.js
+// @updateURL    https://raw.githubusercontent.com/efem360/Tampermonkey-Scripts/main/Gmail-DateTime-Formatter/Gmail-DateTime-Formatter.js
+// @downloadURL  https://raw.githubusercontent.com/efem360/Tampermonkey-Scripts/main/Gmail-DateTime-Formatter/Gmail-DateTime-Formatter.js
 // @run-at       document-idle
 // ==/UserScript==
 
