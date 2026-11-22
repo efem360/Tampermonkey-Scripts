@@ -771,9 +771,9 @@ https://github.com/efem360/Tampermonkey-Scripts/tree/main/Google-Images-Quick-Vi
 
 # 📄 License
 
-This project is released under the **MIT License**.
+This project is released under the **GNU General Public License v3.0 (GPL-3.0)**.
 
-The MIT License permits the use, copying, modification, merging, publishing, distribution, sublicensing, and sale of copies of the software, subject to the applicable license conditions.
+The GNU GPL-3.0 permits the use, study, modification, and distribution of the software, provided that the source code remains open, changes are documented, and any derivative works are distributed under the same license terms.
 
 See the `LICENSE` file in the project repository for details.
 
