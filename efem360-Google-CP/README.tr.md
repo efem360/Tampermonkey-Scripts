@@ -1,4 +1,3 @@
-
 <div align="center">
 
 # ✦ efem360 Google CP
