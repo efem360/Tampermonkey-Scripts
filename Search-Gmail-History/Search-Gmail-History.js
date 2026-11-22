@@ -14,6 +14,8 @@
 // @match        *://gmail.com/*
 // @exclude      *://mail.google.com/mail/*/blank
 // @exclude      *://mail.google.com/mail/*/help
+// @updateURL    https://raw.githubusercontent.com/efem360/Tampermonkey-Scripts/main/Search-Gmail-History/Search-Gmail-History.js
+// @downloadURL  https://raw.githubusercontent.com/efem360/Tampermonkey-Scripts/main/Search-Gmail-History/Search-Gmail-History.js
 // @run-at       document-idle
 // @grant        GM_addStyle
 // ==/UserScript==
