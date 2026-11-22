@@ -406,7 +406,7 @@ Contributions that improve language compatibility, performance, and reliability 
 
 ## 📜 License
 
-This project is distributed under the **MIT License**.
+This project is distributed under the **GPL 3.0 License**.
 
 You are free to use, modify, and distribute the software in accordance with the license terms.
 
