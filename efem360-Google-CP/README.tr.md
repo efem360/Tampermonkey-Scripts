@@ -123,42 +123,40 @@ Seçilen arayüz dili kaydedilir ve panelin dil seçim alanından değiştirileb
 
 ---
 
-## Overview
+## Genel Bakış
 
-efem360 Google CP is an advanced Tampermonkey userscript that enhances the Google Search experience by combining powerful query-building capabilities, search operators, filtering tools, and practical research utilities in one integrated interface.
+efem360 Google CP; güçlü sorgu oluşturma yeteneklerini, arama operatörlerini, filtreleme araçlarını ve pratik araştırma yardımcı programlarını tek bir entegre arayüzde birleştirerek Google Arama deneyimini geliştiren gelişmiş bir Tampermonkey kullanıcı betiğidir (userscript).
 
-Instead of manually constructing complicated search expressions or switching between multiple websites and tools, users can manage their search workflow through a centralized panel.
+Kullanıcılar, karmaşık arama ifadelerini manuel olarak oluşturmak veya birden fazla web sitesi ile araç arasında geçiş yapmak yerine, arama iş akışlarını merkezi bir panel üzerinden yönetebilirler.
 
-### What Makes It Different?
+### Onu Farklı Kılan Nedir?
 
-- **Advanced Search Builder:** Construct complex Google queries using visual controls instead of writing every operator manually.
-- **Operator Management:** Combine supported search operators and logical expressions to refine search results.
-- **Precision Filtering:** Narrow searches by domain, URL path, file type, excluded terms, dates, country, and result language.
-- **OSINT Research Tools:** Organize open-source research workflows using Google search capabilities and predefined search shortcuts.
-- **Integrated Utilities:** Access translation, currency conversion, flight search, hotel search, football searches, and other useful tools.
-- **Multilingual Interface:** Use the panel with support for more than 130 interface languages.
-- **Search History:** Review supported operations and export history in CSV or TXT format.
-- **Seamless Integration:** A floating interface designed to work directly within Google Search.
+- **Gelişmiş Arama Oluşturucu:** Her bir operatörü manuel olarak yazmak yerine görsel kontroller kullanarak karmaşık Google sorguları oluşturun.
+- **Operatör Yönetimi:** Arama sonuçlarını daraltmak için desteklenen arama operatörlerini ve mantıksal ifadeleri birleştirin.
+- **Hassas Filtreleme:** Aramaları alan adı (domain), URL yolu, dosya türü, hariç tutulan terimler, tarihler, ülke ve sonuç diline göre daraltın.
+- **OSINT Araştırma Araçları:** Google arama yeteneklerini ve önceden tanımlanmış arama kısayollarını kullanarak açık kaynak istihbaratı (OSINT) araştırma iş akışlarını düzenleyin.
+- **Entegre Yardımcı Araçlar:** Çeviri, döviz çevirici, uçuş arama, otel arama, futbol aramaları ve diğer kullanışlı araçlara erişin.
+- **Çok Dilli Arayüz:** Paneli 130'dan fazla arayüz dili desteğiyle kullanın.
+- **Arama Geçmişi:** Desteklenen işlemleri inceleyin ve geçmişi CSV veya TXT formatında dışa aktarın.
+- **Sorunsuz Entegrasyon:** Doğrudan Google Arama içinde çalışmak üzere tasarlanmış yüzen (floating) bir arayüz.
 
-## Modules
+## Modüller
 
-| Module | Description |
+| Modül | Açıklama |
 |---|---|
-| Advanced Search | Build and manage complex Google search queries |
-| Search Operators | Use supported Google search operators |
-| Search Filters | Refine results with advanced search parameters |
-| Discover Center | Access Google search categories and useful shortcuts |
-| Football Center | Search football leagues, fixtures, results, and teams |
-| AI Center | Quick links to popular AI services |
-| Translation | Translate text between supported languages |
-| Currency Converter | Compare currency data from Google, free market, and banks |
-| Flight Search | Generate Google Flights search links |
-| Hotel Search | Generate Google Travel accommodation search links |
-| System Information | View general browser, platform, and public IP information |
-| Search History | Review, manage, and export supported operations |
-| Google Tools | Access commonly used Google services |
-
-
+| Gelişmiş Arama | Karmaşık Google arama sorguları oluşturun ve yönetin |
+| Arama Operatörleri | Desteklenen Google arama operatörlerini kullanın |
+| Arama Filtreleri | Sonuçları gelişmiş arama parametreleriyle daraltın |
+| Keşfet Merkezi | Google arama kategorilerine ve kullanışlı kısayollara erişin |
+| Futbol Merkezi | Futbol liglerini, fikstürleri, sonuçları ve takımları arayın |
+| Yapay Zeka Merkezi | Popüler yapay zeka hizmetlerine hızlı bağlantılar |
+| Çeviri | Desteklenen diller arasında metin çevirin |
+| Döviz Çevirici | Google, serbest piyasa ve bankalardan alınan döviz verilerini karşılaştırın |
+| Uçuş Arama | Google Uçuşlar (Google Flights) arama bağlantıları oluşturun |
+| Otel Arama | Google Seyahat (Google Travel) konaklama arama bağlantıları oluşturun |
+| Sistem Bilgileri | Genel tarayıcı, platform ve genel IP bilgilerini görüntüleyin |
+| Arama Geçmişi | Desteklenen işlemleri inceleyin, yönetin ve dışa aktarın |
+| Google Araçları | Sık kullanılan Google hizmetlerine erişin |
 
 ---
 
