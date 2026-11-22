@@ -401,13 +401,13 @@ Dil uyumluluğunu, performansı ve güvenilirliği geliştiren katkılar memnuni
 
 ---
 
-## 📜 Lisans
+# 📄 Lisans
 
-Bu proje **GPL 3.0 Lisansı** kapsamında dağıtılmaktadır.
+Bu proje **GNU Genel Kamu Lisansı v3.0 (GPL-3.0)** kapsamında lisanslanmıştır.
 
-Lisans koşullarına uygun olarak yazılımı kullanabilir, değiştirebilir ve dağıtabilirsiniz.
+GNU GPL-3.0 lisansı; kaynak kodunun açık tutulması, yapılan değişikliklerin belirtilmesi ve türetilmiş çalışmaların da aynı lisans altında dağıtılması koşuluyla yazılımın özgürce kullanılmasına, incelenmesine, değiştirilmesine ve dağıtılmasına izin verir.
 
-Ayrıntılar için [LICENSE](LICENSE) dosyasına bakın.
+Detaylı bilgi için proje deposundaki `LICENSE` dosyasına göz atabilirsiniz.
 
 ---
 
