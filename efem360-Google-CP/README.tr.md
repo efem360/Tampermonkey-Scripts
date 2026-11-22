@@ -16,7 +16,7 @@ efem360 Google CP, karmaşık arama işlemlerini kolaylaştırmak ve farklı ara
 [![Userscript](https://img.shields.io/badge/Userscript-Tampermonkey-00485B?style=for-the-badge&logo=tampermonkey&logoColor=white)](https://www.tampermonkey.net/)
 [![Version](https://img.shields.io/badge/Version-4.1.9-2563EB?style=for-the-badge)](https://github.com/efem360/Tampermonkey-Scripts/tree/main/efem360-Google-CP)
 [![License](https://img.shields.io/badge/License-GPL--3.0-blue?style=for-the-badge)](https://github.com/efem360/Tampermonkey-Scripts/blob/main/efem360-Google-CP/LICENSE)
-[![Languages](https://img.shields.io/badge/Languages-130%2B-DC2626?style=for-the-badge)](#language-system)
+[![Languages](https://img.shields.io/badge/Languages-130%2B-DC2626?style=for-the-badge)](#dil-sistemi)
 [![Platform](https://img.shields.io/badge/Platform-Google%20Search-4285F4?style=for-the-badge&logo=google&logoColor=white)](https://www.google.com/)
 
 <br>
