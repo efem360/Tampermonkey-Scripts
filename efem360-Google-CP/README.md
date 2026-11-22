@@ -1,4 +1,3 @@
-
 <div align="center">
 
 # ✦ efem360 Google CP
@@ -14,14 +13,14 @@ Designed to simplify complex search workflows, efem360 Google CP brings search m
 <br>
 
 [![Userscript](https://img.shields.io/badge/Userscript-Tampermonkey-00485B?style=for-the-badge&logo=tampermonkey&logoColor=white)](https://www.tampermonkey.net/)
-[![Version](https://img.shields.io/badge/Version-4.1.9-2563EB?style=for-the-badge)](https://github.com/efem360/Google-Cp/releases)
-[![License](https://img.shields.io/badge/License-GPL--3.0-blue?style=for-the-badge)](https://github.com/efem360/Google-Cp/blob/main/LICENSE)
+[![Version](https://img.shields.io/badge/Version-4.1.9-2563EB?style=for-the-badge)](https://github.com/efem360/Tampermonkey-Scripts/tree/main/efem360-Google-CP)
+[![License](https://img.shields.io/badge/License-GPL--3.0-blue?style=for-the-badge)](https://github.com/efem360/Tampermonkey-Scripts/blob/main/efem360-Google-CP/LICENSE)
 [![Languages](https://img.shields.io/badge/Languages-130%2B-DC2626?style=for-the-badge)](#language-system)
 [![Platform](https://img.shields.io/badge/Platform-Google%20Search-4285F4?style=for-the-badge&logo=google&logoColor=white)](https://www.google.com/)
 
 <br>
 
-[⚡ Install with One Click](https://raw.githubusercontent.com/efem360/Google-Cp/main/efem360-Google-CP.user.js) · [GitHub Repository](https://github.com/efem360/Google-Cp) · [Release History](https://github.com/efem360/Google-Cp/releases) · [Module Guide](#modules)
+[⚡ Install with One Click](https://raw.githubusercontent.com/efem360/Tampermonkey-Scripts/main/efem360-Google-CP/efem360-Google-CP.js) · [GitHub Repository](https://github.com/efem360/Tampermonkey-Scripts/tree/main/efem360-Google-CP) · [Release History](https://github.com/efem360/Tampermonkey-Scripts/tree/main/efem360-Google-CP) · [Module Guide](#modules)
 
 <br>
 
@@ -119,7 +118,7 @@ The selected interface language is saved and can be changed from the panel's lan
 
 ---
 
-[Installation Guide](#installation) · [Features](#features) · [Privacy](#privacy) · [Releases](https://github.com/efem360/Google-Cp/releases)
+[Installation Guide](#installation) · [Features](#features) · [Privacy](#privacy) · [Releases](https://github.com/efem360/Tampermonkey-Scripts/tree/main/efem360-Google-CP)
 
 ---
 
@@ -164,7 +163,7 @@ https://www.tampermonkey.net/
 
 Open the following link to access the installation page:
 
-**[Install efem360 Google CP](https://raw.githubusercontent.com/efem360/Google-Cp/refs/heads/main/efem360-Google-CP.user.js)**
+**[Install efem360 Google CP](https://raw.githubusercontent.com/efem360/Tampermonkey-Scripts/main/efem360-Google-CP/efem360-Google-CP.js)**
 
 Click **Install** on the Tampermonkey installation screen.
 
@@ -183,7 +182,7 @@ The project is updated through a single, stable userscript file.
 Update URL:
 
 ```text
-https://raw.githubusercontent.com/efem360/Google-Cp/refs/heads/main/efem360-Google-CP.user.js
+https://raw.githubusercontent.com/efem360/Tampermonkey-Scripts/main/efem360-Google-CP/efem360-Google-CP.js
 ```
 
 **Important:** A separate JavaScript file is not created for every new release. The contents of the same file are updated, and the `@version` value in the userscript header is changed.
@@ -200,7 +199,7 @@ Tampermonkey can check for new versions through the update URL.
 
 Version history and published releases:
 
-https://github.com/efem360/Google-Cp/releases
+https://github.com/efem360/Tampermonkey-Scripts/tree/main/efem360-Google-CP
 
 ---
 
@@ -1125,9 +1124,9 @@ See the `LICENSE` file in the project repository for details.
 
 | Resource | Link |
 |---|---|
-| GitHub Repository | https://github.com/efem360/Google-Cp |
-| Releases | https://github.com/efem360/Google-Cp/releases |
-| Userscript | https://raw.githubusercontent.com/efem360/Google-Cp/refs/heads/main/efem360-Google-CP.user.js |
+| GitHub Repository | https://github.com/efem360/Tampermonkey-Scripts/tree/main/efem360-Google-CP |
+| Releases | https://github.com/efem360/Tampermonkey-Scripts/tree/main/efem360-Google-CP |
+| Userscript | https://raw.githubusercontent.com/efem360/Tampermonkey-Scripts/main/efem360-Google-CP/efem360-Google-CP.js |
 | Tampermonkey | https://www.tampermonkey.net/ |
 
 ---
