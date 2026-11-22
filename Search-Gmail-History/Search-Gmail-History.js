@@ -5,8 +5,8 @@
 // @version      4.2.1
 // @description  Gmail'de e-posta adreslerinin yanına mektup butonu ekler. Tek-tıkla tüm geçmiş yazışmaları bulun.
 // @author       Kemal Kalender
-// @homepageURL  https://github.com/efem360/Tampermonkey-Scripts/tree/main/efem360-Google-CP
-// @supportURL   https://github.com/efem360/Tampermonkey-Scripts/tree/main/efem360-Google-CP/issues
+// @homepageURL  https://github.com/efem360/Tampermonkey-Scripts/tree/main/Search-Gmail-History
+// @supportURL   https://github.com/efem360/Tampermonkey-Scripts/tree/main/Search-Gmail-History/issues
 // @icon         https://mail.google.com/favicon.ico
 // @license      GPL-3.0
 // @match        *://mail.google.com/*
