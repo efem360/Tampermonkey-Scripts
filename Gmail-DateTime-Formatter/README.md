@@ -422,7 +422,7 @@ See the [LICENSE](LICENSE) file for details.
 
 Developed by **Kemal Kalender**
 
-[GitHub](https://github.com/efem360) · [Google CP](https://github.com/efem360/Tampermonkey-Scripts/tree/main/efem360-Google-CP)
+[GitHub](https://github.com/efem360) · [Gmail DateTime Formatter](https://github.com/efem360/Tampermonkey-Scripts/tree/main/Gmail-DateTime-Formatter)
 
 <br>
 
