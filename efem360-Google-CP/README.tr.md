@@ -21,7 +21,7 @@ efem360 Google CP, karmaşık arama işlemlerini kolaylaştırmak ve farklı ara
 
 <br>
 
-[⚡ Install with One Click](https://raw.githubusercontent.com/efem360/Tampermonkey-Scripts/main/efem360-Google-CP/efem360-Google-CP.js) · [GitHub Repository](https://github.com/efem360/Tampermonkey-Scripts/tree/main/efem360-Google-CP) · [Release History](https://github.com/efem360/Tampermonkey-Scripts/tree/main/efem360-Google-CP) · [Module Guide](#modules)
+[⚡ Tek Tıkla Yükle](https://raw.githubusercontent.com/efem360/Tampermonkey-Scripts/main/efem360-Google-CP/efem360-Google-CP.js) · [GitHub Deposu](https://github.com/efem360/Tampermonkey-Scripts/tree/main/efem360-Google-CP) · [Sürüm Geçmişi](https://github.com/efem360/Tampermonkey-Scripts/tree/main/efem360-Google-CP) · [Modül Rehberi](#modules)
 
 <br>
 
