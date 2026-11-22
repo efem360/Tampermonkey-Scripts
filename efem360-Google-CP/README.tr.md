@@ -14,14 +14,14 @@ efem360 Google CP, karmaşık arama işlemlerini kolaylaştırmak ve farklı ara
 <br>
 
 [![Userscript](https://img.shields.io/badge/Userscript-Tampermonkey-00485B?style=for-the-badge&logo=tampermonkey&logoColor=white)](https://www.tampermonkey.net/)
-[![Sürüm](https://img.shields.io/badge/Sürüm-4.1.9-2563EB?style=for-the-badge)](https://github.com/efem360/Google-Cp/releases)
-[![License](https://img.shields.io/badge/License-GPL--3.0-blue?style=for-the-badge)](https://github.com/efem360/Google-Cp/blob/main/LICENSE)
-[![Diller](https://img.shields.io/badge/Dil-130%2B-DC2626?style=for-the-badge)](#dil-sistemi)
+[![Version](https://img.shields.io/badge/Version-4.1.9-2563EB?style=for-the-badge)](https://github.com/efem360/Tampermonkey-Scripts/tree/main/efem360-Google-CP)
+[![License](https://img.shields.io/badge/License-GPL--3.0-blue?style=for-the-badge)](https://github.com/efem360/Tampermonkey-Scripts/blob/main/efem360-Google-CP/LICENSE)
+[![Languages](https://img.shields.io/badge/Languages-130%2B-DC2626?style=for-the-badge)](#language-system)
 [![Platform](https://img.shields.io/badge/Platform-Google%20Search-4285F4?style=for-the-badge&logo=google&logoColor=white)](https://www.google.com/)
 
 <br>
 
-[⚡ Tek Tıkla Yükle](https://raw.githubusercontent.com/efem360/Google-Cp/main/efem360-Google-CP.user.js) · [GitHub Deposu](https://github.com/efem360/Google-Cp) · [Sürüm Geçmişi](https://github.com/efem360/Google-Cp/releases) · [Modüller](#moduller)
+[⚡ Install with One Click](https://raw.githubusercontent.com/efem360/Tampermonkey-Scripts/main/efem360-Google-CP/efem360-Google-CP.js) · [GitHub Repository](https://github.com/efem360/Tampermonkey-Scripts/tree/main/efem360-Google-CP) · [Release History](https://github.com/efem360/Tampermonkey-Scripts/tree/main/efem360-Google-CP) · [Module Guide](#modules)
 
 <br>
 
@@ -119,7 +119,7 @@ Seçilen arayüz dili kaydedilir ve panelin dil seçim alanından değiştirileb
 
 ---
 
-[Kurulum Rehberi](#kurulum) · [Özellikler](#ozellikler) · [Gizlilik](#gizlilik) · [Sürümler](https://github.com/efem360/Google-Cp/releases)
+[Kurulum Rehberi](#kurulum) · [Özellikler](#ozellikler) · [Gizlilik](#gizlilik) · [Sürümler](https://github.com/efem360/Tampermonkey-Scripts/tree/main/efem360-Google-CP)
 
 ---
 
@@ -203,7 +203,7 @@ https://www.tampermonkey.net/
 
 Aşağıdaki bağlantıyı açarak kurulum ekranına ulaşabilirsiniz:
 
-**[efem360 Google CP – Betiği Yükle](https://raw.githubusercontent.com/efem360/Google-Cp/refs/heads/main/efem360-Google-CP.user.js)**
+**[efem360 Google CP – Betiği Yükle](https://raw.githubusercontent.com/efem360/Tampermonkey-Scripts/main/efem360-Google-CP/efem360-Google-CP.js)**
 
 Tampermonkey kurulum ekranında **Yükle** seçeneğine tıklayın.
 
@@ -222,7 +222,7 @@ Proje, sabit bir kullanıcı betiği dosyası üzerinden güncellenmektedir.
 Güncelleme adresi:
 
 ```text
-https://raw.githubusercontent.com/efem360/Google-Cp/refs/heads/main/efem360-Google-CP.user.js
+https://raw.githubusercontent.com/efem360/Tampermonkey-Scripts/main/efem360-Google-CP/efem360-Google-CP.js
 ```
 
 **Önemli:** Her yeni sürümde farklı bir JavaScript dosyası oluşturulmaz. Aynı dosyanın içeriği güncellenir ve betik başlığındaki `@version` değeri değiştirilir.
@@ -239,7 +239,7 @@ Tampermonkey, güncelleme adresi üzerinden yeni sürümü kontrol edebilir.
 
 Sürüm geçmişi ve yayımlanan sürümler:
 
-https://github.com/efem360/Google-Cp/releases
+https://github.com/efem360/Tampermonkey-Scripts/tree/main/efem360-Google-CP
 
 ---
 
@@ -1164,9 +1164,9 @@ Ayrıntılar için proje deposundaki `LICENSE` dosyasını inceleyin.
 
 | Kaynak | Bağlantı |
 |---|---|
-| GitHub Deposu | https://github.com/efem360/Google-Cp |
-| Sürümler | https://github.com/efem360/Google-Cp/releases |
-| Kullanıcı Betiği | https://raw.githubusercontent.com/efem360/Google-Cp/refs/heads/main/efem360-Google-CP.user.js |
+| GitHub Deposu | https://github.com/efem360/Tampermonkey-Scripts/tree/main/efem360-Google-CP |
+| Sürümler | https://github.com/efem360/Tampermonkey-Scripts/tree/main/efem360-Google-CP |
+| Kullanıcı Betiği | https://raw.githubusercontent.com/efem360/Tampermonkey-Scripts/main/efem360-Google-CP/efem360-Google-CP.js |
 | Tampermonkey | https://www.tampermonkey.net/ |
 
 ---
