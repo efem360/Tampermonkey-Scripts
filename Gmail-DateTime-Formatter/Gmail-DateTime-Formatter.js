@@ -5,16 +5,16 @@
 // @version      2.4.0
 // @description  Gmail tarih ve saatlerini otomatik olarak DD.MM.YY HH:MM formatında görüntüler. Çok dilli ay tanıma ve dinamik içerik desteği sunar.
 // @author       Kemal Kalender
-// @homepageURL  https://github.com/efem360/Gmail-DateTime-Formatter
-// @supportURL   https://github.com/efem360/Gmail-DateTime-Formatter/issues
+// @homepageURL  https://github.com/efem360/efem360/Tampermonkey-Scripts/main/Gmail-DateTime-Formatter
+// @supportURL   https://github.com/efem360/efem360/Tampermonkey-Scripts/main/Gmail-DateTime-Formatter/issues
 // @match        https://mail.google.com/mail/*
 // @exclude      https://mail.google.com/mail/*/blank
 // @exclude      https://mail.google.com/mail/*/help
 // @icon         https://mail.google.com/favicon.ico
 // @license      GPL 3.0
 // @grant        none
-// @updateURL    https://raw.githubusercontent.com/efem360/Gmail-DateTime-Formatter/main/Gmail-DateTime-Formatter.user.js
-// @downloadURL  https://raw.githubusercontent.com/efem360/Gmail-DateTime-Formatter/main/Gmail-DateTime-Formatter.user.js
+// @updateURL    https://raw.githubusercontent.com/efem360/Tampermonkey-Scripts/main/Gmail-DateTime-Formatter/Gmail-DateTime-Formatter.user.js
+// @downloadURL  https://raw.githubusercontent.com/efem360/Tampermonkey-Scripts/main/Gmail-DateTime-Formatter/Gmail-DateTime-Formatter.user.js
 // @run-at       document-idle
 // ==/UserScript==
 
