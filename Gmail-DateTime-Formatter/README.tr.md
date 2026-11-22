@@ -14,13 +14,13 @@ Gmail Türkçe, İngilizce, Almanca, Fransızca veya desteklenen başka bir dild
 <br>
 
 [![Userscript](https://img.shields.io/badge/Userscript-Tampermonkey-00485B?style=for-the-badge&logo=tampermonkey&logoColor=white)](https://www.tampermonkey.net/)
-[![Version](https://img.shields.io/badge/Version-2.4.0-2563EB?style=for-the-badge)](https://github.com/efem360/Gmail-DateTime-Formatter/releases)
-[![License](https://img.shields.io/badge/License-GPL--3.0-blue?style=for-the-badge)](https://github.com/efem360/Google-Cp/blob/main/LICENSE)
+[![Version](https://img.shields.io/badge/Version-2.4.0-2563EB?style=for-the-badge)](https://github.com/efem360/Tampermonkey-Scripts/tree/main/Gmail-DateTime-Formatter)
+[![License](https://img.shields.io/badge/License-GPL--3.0-blue?style=for-the-badge)](https://github.com/efem360/Tampermonkey-Scripts/blob/main/Gmail-DateTime-Formatter/LICENSE)
 [![Platform](https://img.shields.io/badge/Platform-Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](https://mail.google.com/)
 
 <br>
 
-[⚡ Tek Tıkla Yükle](https://raw.githubusercontent.com/efem360/Gmail-DateTime-Formatter/main/efem360-Gmail-DateTime-Formatter.user.js) · [GitHub Deposu](https://github.com/efem360/Gmail-DateTime-Formatter) · [Sürüm Geçmişi](https://github.com/efem360/Gmail-DateTime-Formatter/releases)
+[⚡ Tek Tıkla Yükle](https://raw.githubusercontent.com/efem360/Tampermonkey-Scripts/main/Gmail-DateTime-Formatter/Gmail-DateTime-Formatter.js) · [GitHub Deposu](https://github.com/efem360/Tampermonkey-Scripts/tree/main/Gmail-DateTime-Formatter) · [Sürüm Geçmişi](https://github.com/efem360/Tampermonkey-Scripts/tree/main/Gmail-DateTime-Formatter)
 
 <br>
 
@@ -115,7 +115,7 @@ https://www.tampermonkey.net/
 
 Aşağıdaki yükleme bağlantısını açın:
 
-**[efem360 Gmail DateTime Formatter'ı Yükle](https://raw.githubusercontent.com/efem360/Gmail-DateTime-Formatter/main/efem360-Gmail-DateTime-Formatter.user.js)**
+**[efem360 Gmail DateTime Formatter'ı Yükle](https://raw.githubusercontent.com/efem360/Tampermonkey-Scripts/main/Gmail-DateTime-Formatter/Gmail-DateTime-Formatter.js)**
 
 Tampermonkey, kullanıcı betiğinin kurulum ekranını açacaktır.
 
@@ -299,7 +299,7 @@ Proje, kurulum ve güncellemeler için tek bir kullanıcı betiği dosyası kull
 **Güncelleme URL'si:**
 
 ```text
-https://raw.githubusercontent.com/efem360/Gmail-DateTime-Formatter/main/efem360-Gmail-DateTime-Formatter.user.js
+https://raw.githubusercontent.com/efem360/Tampermonkey-Scripts/main/Gmail-DateTime-Formatter/Gmail-DateTime-Formatter.js
 ```
 
 Yeni bir sürüm yayımlandığında mevcut kullanıcı betiği dosyası güncellenir.
@@ -316,7 +316,7 @@ Tampermonkey, kullanıcı betiği güncelleme bilgilerini kullanarak daha yeni s
 
 Sürüm bilgileri için:
 
-[GitHub Sürümleri](https://github.com/efem360/Gmail-DateTime-Formatter/releases)
+[GitHub Sürümleri](https://github.com/efem360/Tampermonkey-Scripts/tree/main/Gmail-DateTime-Formatter)
 
 ---
 
@@ -420,7 +420,7 @@ Ayrıntılar için [LICENSE](LICENSE) dosyasına bakın.
 
 Geliştiren: **Kemal Kalender**
 
-[GitHub](https://github.com/efem360) · [Google CP](https://github.com/efem360/Google-Cp)
+[GitHub](https://github.com/efem360) · [Google CP](https://github.com/efem360/Tampermonkey-Scripts/tree/main/Gmail-DateTime-Formatter)
 
 <br>
 
