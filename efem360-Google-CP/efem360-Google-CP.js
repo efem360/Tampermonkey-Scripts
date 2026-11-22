@@ -24,7 +24,7 @@
 // @connect      piyasadoviz.com
 // @connect      translate.googleapis.com
 // @updateURL    https://raw.githubusercontent.com/efem360/Google-Cp/refs/heads/main/efem360-Google-CP.user.js
-// @downloadURL  https://raw.githubusercontent.com/efem360/Google-Cp/refs/heads/main/efem360-Google-CP.user.js
+// @downloadURL  https://github.com/efem360/Tampermonkey-Scripts/raw/refs/heads/main/efem360-Google-CP/efem360%20Google%20CP%20v4.1.9.user.js
 // @run-at       document-idle
 // ==/UserScript==
 
