@@ -14,7 +14,7 @@
 // @match        *://google.com.tr/*
 // @match        *://*.google.*/search*
 // @updateURL    https://raw.githubusercontent.com/efem360/Tampermonkey-Scripts/main/Google-Images-Quick-View-Button/Google-Images-Quick-View-Button.js
-// @downloadURL  https://raw.githubusercontent.com/efem360/Tampermonkey-Scripts/main/Google-Images-Quick-View-Button/Google-Images-Quick-View-Button.js
+// @downloadURL  https://raw.githubusercontent.com/efem360/Tampermonkey-Scripts/main/Google-Images%20%E2%80%93%20Quick-View-Button/Google-Images%20%E2%80%93%20Quick-View-Button.js
 // @run-at       document-idle
 // @grant        none
 // ==/UserScript==
