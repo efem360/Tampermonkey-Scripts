@@ -1,6 +1,6 @@
 <div align="center">
 
-# ✦ efem360 Gmail DateTime Formatter
+# ✦ efem360 Gmail Tarih-Saat Biçimlendirici
 
 ### Gmail İçin Otomatik Tarih ve Saat Biçimlendirme
 
