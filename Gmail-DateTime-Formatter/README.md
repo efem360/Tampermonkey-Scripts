@@ -403,13 +403,13 @@ Contributions that improve language compatibility, performance, and reliability 
 
 ---
 
-## 📜 License
+# 📄 License
 
-This project is distributed under the **GPL 3.0 License**.
+This project is released under the **GNU General Public License v3.0 (GPL-3.0)**.
 
-You are free to use, modify, and distribute the software in accordance with the license terms.
+The GNU GPL-3.0 permits the use, study, modification, and distribution of the software, provided that the source code remains open, changes are documented, and any derivative works are distributed under the same license terms.
 
-See the [LICENSE](LICENSE) file for details.
+See the `LICENSE` file in the project repository for details.
 
 ---
 
