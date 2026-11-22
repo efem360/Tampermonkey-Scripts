@@ -767,11 +767,11 @@ https://github.com/efem360/Tampermonkey-Scripts/tree/main/Google-Images-Quick-Vi
 
 # 📄 Lisans
 
-Bu proje **MIT Lisansı** ile yayımlanmıştır.
+Bu proje **GNU Genel Kamu Lisansı v3.0 (GPL-3.0)** kapsamında lisanslanmıştır.
 
-MIT Lisansı, ilgili lisans koşullarına uyulması şartıyla yazılımın kullanılmasına, kopyalanmasına, değiştirilmesine, birleştirilmesine, yayımlanmasına, dağıtılmasına, alt lisans verilmesine ve kopyalarının satılmasına izin verir.
+GNU GPL-3.0 lisansı; kaynak kodunun açık tutulması, yapılan değişikliklerin belirtilmesi ve türetilmiş çalışmaların da aynı lisans altında dağıtılması koşuluyla yazılımın özgürce kullanılmasına, incelenmesine, değiştirilmesine ve dağıtılmasına izin verir.
 
-Ayrıntılar için proje deposundaki `LICENSE` dosyasına bakın.
+Detaylı bilgi için proje deposundaki `LICENSE` dosyasına göz atabilirsiniz.
 
 ---
 
