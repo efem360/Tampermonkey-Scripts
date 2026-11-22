@@ -1112,7 +1112,7 @@ Anyone interested in improving the project, reporting bugs, or suggesting new fe
 
 # 📄 License
 
-This project is released under the **MIT License**.
+This project is released under the **GPL 3.0 License**.
 
 The MIT License permits the use, copying, modification, merging, publication, distribution, sublicensing, and sale of the software, subject to compliance with the license terms.
 
