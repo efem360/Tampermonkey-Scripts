@@ -1,4 +1,3 @@
-
 <div align="center">
 
 # ✦ efem360 Gmail DateTime Formatter
