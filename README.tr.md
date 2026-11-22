@@ -1,4 +1,3 @@
-
 <div align="center">
 
 # ✦ efem360 Google CP
@@ -14,14 +13,14 @@ efem360 Google CP, karmaşık arama işlemlerini kolaylaştırmak ve farklı ara
 <br>
 
 [![Userscript](https://img.shields.io/badge/Userscript-Tampermonkey-00485B?style=for-the-badge&logo=tampermonkey&logoColor=white)](https://www.tampermonkey.net/)
-[![Sürüm](https://img.shields.io/badge/Sürüm-4.1.9-2563EB?style=for-the-badge)](https://github.com/efem360/Google-Cp/releases)
-[![License](https://img.shields.io/badge/License-GPL--3.0-blue?style=for-the-badge)](https://github.com/efem360/Google-Cp/blob/main/LICENSE)
-[![Diller](https://img.shields.io/badge/Dil-130%2B-DC2626?style=for-the-badge)](#dil-sistemi)
+[![Version](https://img.shields.io/badge/Version-4.1.9-2563EB?style=for-the-badge)](https://github.com/efem360/Tampermonkey-Scripts/tree/main/efem360-Google-CP)
+[![License](https://img.shields.io/badge/License-GPL--3.0-blue?style=for-the-badge)](https://github.com/efem360/Tampermonkey-Scripts/blob/main/efem360-Google-CP/LICENSE)
+[![Languages](https://img.shields.io/badge/Languages-130%2B-DC2626?style=for-the-badge)](#dil-sistemi)
 [![Platform](https://img.shields.io/badge/Platform-Google%20Search-4285F4?style=for-the-badge&logo=google&logoColor=white)](https://www.google.com/)
 
 <br>
 
-[⚡ Tek Tıkla Yükle](https://raw.githubusercontent.com/efem360/Google-Cp/main/efem360-Google-CP.user.js) · [GitHub Deposu](https://github.com/efem360/Google-Cp) · [Sürüm Geçmişi](https://github.com/efem360/Google-Cp/releases) · [Modüller](#moduller)
+[⚡ Tek Tıkla Yükle](https://raw.githubusercontent.com/efem360/Tampermonkey-Scripts/main/efem360-Google-CP/efem360-Google-CP.js) · [GitHub Deposu](https://github.com/efem360/Tampermonkey-Scripts/tree/main/efem360-Google-CP) · [Sürüm Geçmişi](https://github.com/efem360/Tampermonkey-Scripts/tree/main/efem360-Google-CP) · [Modül Rehberi](#modules)
 
 <br>
 
@@ -119,46 +118,44 @@ Seçilen arayüz dili kaydedilir ve panelin dil seçim alanından değiştirileb
 
 ---
 
-[Kurulum Rehberi](#kurulum) · [Özellikler](#ozellikler) · [Gizlilik](#gizlilik) · [Sürümler](https://github.com/efem360/Google-Cp/releases)
+[Kurulum Rehberi](#kurulum) · [Özellikler](#ozellikler) · [Gizlilik](#gizlilik) · [Sürümler](https://github.com/efem360/Tampermonkey-Scripts/tree/main/efem360-Google-CP)
 
 ---
 
-## Overview
+## Genel Bakış
 
-efem360 Google CP is an advanced Tampermonkey userscript that enhances the Google Search experience by combining powerful query-building capabilities, search operators, filtering tools, and practical research utilities in one integrated interface.
+efem360 Google CP; güçlü sorgu oluşturma yeteneklerini, arama operatörlerini, filtreleme araçlarını ve pratik araştırma yardımcı programlarını tek bir entegre arayüzde birleştirerek Google Arama deneyimini geliştiren gelişmiş bir Tampermonkey kullanıcı betiğidir (userscript).
 
-Instead of manually constructing complicated search expressions or switching between multiple websites and tools, users can manage their search workflow through a centralized panel.
+Kullanıcılar, karmaşık arama ifadelerini manuel olarak oluşturmak veya birden fazla web sitesi ile araç arasında geçiş yapmak yerine, arama iş akışlarını merkezi bir panel üzerinden yönetebilirler.
 
-### What Makes It Different?
+### Onu Farklı Kılan Nedir?
 
-- **Advanced Search Builder:** Construct complex Google queries using visual controls instead of writing every operator manually.
-- **Operator Management:** Combine supported search operators and logical expressions to refine search results.
-- **Precision Filtering:** Narrow searches by domain, URL path, file type, excluded terms, dates, country, and result language.
-- **OSINT Research Tools:** Organize open-source research workflows using Google search capabilities and predefined search shortcuts.
-- **Integrated Utilities:** Access translation, currency conversion, flight search, hotel search, football searches, and other useful tools.
-- **Multilingual Interface:** Use the panel with support for more than 130 interface languages.
-- **Search History:** Review supported operations and export history in CSV or TXT format.
-- **Seamless Integration:** A floating interface designed to work directly within Google Search.
+- **Gelişmiş Arama Oluşturucu:** Her bir operatörü manuel olarak yazmak yerine görsel kontroller kullanarak karmaşık Google sorguları oluşturun.
+- **Operatör Yönetimi:** Arama sonuçlarını daraltmak için desteklenen arama operatörlerini ve mantıksal ifadeleri birleştirin.
+- **Hassas Filtreleme:** Aramaları alan adı (domain), URL yolu, dosya türü, hariç tutulan terimler, tarihler, ülke ve sonuç diline göre daraltın.
+- **OSINT Araştırma Araçları:** Google arama yeteneklerini ve önceden tanımlanmış arama kısayollarını kullanarak açık kaynak istihbaratı (OSINT) araştırma iş akışlarını düzenleyin.
+- **Entegre Yardımcı Araçlar:** Çeviri, döviz çevirici, uçuş arama, otel arama, futbol aramaları ve diğer kullanışlı araçlara erişin.
+- **Çok Dilli Arayüz:** Paneli 130'dan fazla arayüz dili desteğiyle kullanın.
+- **Arama Geçmişi:** Desteklenen işlemleri inceleyin ve geçmişi CSV veya TXT formatında dışa aktarın.
+- **Sorunsuz Entegrasyon:** Doğrudan Google Arama içinde çalışmak üzere tasarlanmış yüzen (floating) bir arayüz.
 
-## Modules
+## Modüller
 
-| Module | Description |
+| Modül | Açıklama |
 |---|---|
-| Advanced Search | Build and manage complex Google search queries |
-| Search Operators | Use supported Google search operators |
-| Search Filters | Refine results with advanced search parameters |
-| Discover Center | Access Google search categories and useful shortcuts |
-| Football Center | Search football leagues, fixtures, results, and teams |
-| AI Center | Quick links to popular AI services |
-| Translation | Translate text between supported languages |
-| Currency Converter | Compare currency data from Google, free market, and banks |
-| Flight Search | Generate Google Flights search links |
-| Hotel Search | Generate Google Travel accommodation search links |
-| System Information | View general browser, platform, and public IP information |
-| Search History | Review, manage, and export supported operations |
-| Google Tools | Access commonly used Google services |
-
-
+| Gelişmiş Arama | Karmaşık Google arama sorguları oluşturun ve yönetin |
+| Arama Operatörleri | Desteklenen Google arama operatörlerini kullanın |
+| Arama Filtreleri | Sonuçları gelişmiş arama parametreleriyle daraltın |
+| Keşfet Merkezi | Google arama kategorilerine ve kullanışlı kısayollara erişin |
+| Futbol Merkezi | Futbol liglerini, fikstürleri, sonuçları ve takımları arayın |
+| Yapay Zeka Merkezi | Popüler yapay zeka hizmetlerine hızlı bağlantılar |
+| Çeviri | Desteklenen diller arasında metin çevirin |
+| Döviz Çevirici | Google, serbest piyasa ve bankalardan alınan döviz verilerini karşılaştırın |
+| Uçuş Arama | Google Uçuşlar (Google Flights) arama bağlantıları oluşturun |
+| Otel Arama | Google Seyahat (Google Travel) konaklama arama bağlantıları oluşturun |
+| Sistem Bilgileri | Genel tarayıcı, platform ve genel IP bilgilerini görüntüleyin |
+| Arama Geçmişi | Desteklenen işlemleri inceleyin, yönetin ve dışa aktarın |
+| Google Araçları | Sık kullanılan Google hizmetlerine erişin |
 
 ---
 
@@ -203,7 +200,7 @@ https://www.tampermonkey.net/
 
 Aşağıdaki bağlantıyı açarak kurulum ekranına ulaşabilirsiniz:
 
-**[efem360 Google CP – Betiği Yükle](https://raw.githubusercontent.com/efem360/Google-Cp/refs/heads/main/efem360-Google-CP.user.js)**
+**[efem360 Google CP – Betiği Yükle](https://raw.githubusercontent.com/efem360/Tampermonkey-Scripts/main/efem360-Google-CP/efem360-Google-CP.js)**
 
 Tampermonkey kurulum ekranında **Yükle** seçeneğine tıklayın.
 
@@ -222,7 +219,7 @@ Proje, sabit bir kullanıcı betiği dosyası üzerinden güncellenmektedir.
 Güncelleme adresi:
 
 ```text
-https://raw.githubusercontent.com/efem360/Google-Cp/refs/heads/main/efem360-Google-CP.user.js
+https://raw.githubusercontent.com/efem360/Tampermonkey-Scripts/main/efem360-Google-CP/efem360-Google-CP.js
 ```
 
 **Önemli:** Her yeni sürümde farklı bir JavaScript dosyası oluşturulmaz. Aynı dosyanın içeriği güncellenir ve betik başlığındaki `@version` değeri değiştirilir.
@@ -239,7 +236,7 @@ Tampermonkey, güncelleme adresi üzerinden yeni sürümü kontrol edebilir.
 
 Sürüm geçmişi ve yayımlanan sürümler:
 
-https://github.com/efem360/Google-Cp/releases
+https://github.com/efem360/Tampermonkey-Scripts/tree/main/efem360-Google-CP
 
 ---
 
@@ -1152,11 +1149,11 @@ Projeyi geliştirmek, hata bildirmek veya yeni özellik önermek isteyen herkes 
 
 # 📄 Lisans
 
-Bu proje **MIT Lisansı** altında yayımlanmaktadır.
+Bu proje **GNU Genel Kamu Lisansı v3.0 (GPL-3.0)** kapsamında lisanslanmıştır.
 
-MIT Lisansı, lisans koşullarına uyulması şartıyla yazılımın kullanılmasına, kopyalanmasına, değiştirilmesine, birleştirilmesine, yayımlanmasına, dağıtılmasına ve alt lisanslanmasına izin verir.
+GNU GPL-3.0 lisansı; kaynak kodunun açık tutulması, yapılan değişikliklerin belirtilmesi ve türetilmiş çalışmaların da aynı lisans altında dağıtılması koşuluyla yazılımın özgürce kullanılmasına, incelenmesine, değiştirilmesine ve dağıtılmasına izin verir.
 
-Ayrıntılar için proje deposundaki `LICENSE` dosyasını inceleyin.
+Detaylı bilgi için proje deposundaki `LICENSE` dosyasına göz atabilirsiniz.
 
 ---
 
@@ -1164,9 +1161,9 @@ Ayrıntılar için proje deposundaki `LICENSE` dosyasını inceleyin.
 
 | Kaynak | Bağlantı |
 |---|---|
-| GitHub Deposu | https://github.com/efem360/Google-Cp |
-| Sürümler | https://github.com/efem360/Google-Cp/releases |
-| Kullanıcı Betiği | https://raw.githubusercontent.com/efem360/Google-Cp/refs/heads/main/efem360-Google-CP.user.js |
+| GitHub Deposu | https://github.com/efem360/Tampermonkey-Scripts/tree/main/efem360-Google-CP |
+| Sürümler | https://github.com/efem360/Tampermonkey-Scripts/tree/main/efem360-Google-CP |
+| Kullanıcı Betiği | https://raw.githubusercontent.com/efem360/Tampermonkey-Scripts/main/efem360-Google-CP/efem360-Google-CP.js |
 | Tampermonkey | https://www.tampermonkey.net/ |
 
 ---
